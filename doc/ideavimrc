@@ -1,0 +1,25 @@
+"*****************************************************************************
+"                   Set mapleader and Personal shortcut
+"*****************************************************************************
+"Set mapleader
+let mapleader = ","
+
+"Personal shortcut
+map <silent> <leader>da :%d<cr>
+map <silent> <leader>w :w<cr>
+map <silent> <leader>q :q<cr>
+map <silent> <leader>o :only<cr>
+" select all
+map <silent> <leader>sa :1,$y<cr>
+map <silent> <leader>qa :qall!<cr>
+
+set clipboard+=unnamed
+set shiftwidth=4
+set ts=4
+set nu
+set hlsearch
+set incsearch
+set ruler
+set showcmd
+set incsearch
+set ignorecase
